@@ -1,0 +1,98 @@
+.newScreen {
+  width: 500px;
+  margin-bottom: 30px;
+}
+.sendHeader {
+  margin: 25px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0px;
+}
+.sendIcon {
+  background-color: rgb(77, 106, 167);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  color: white;
+  font-weight: 500;
+}
+#circle {
+  width: 120px;
+  height: 120px;
+  font-size: 32px;
+  margin: 10px 0px;
+}
+
+.iconContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px 0px;
+}
+
+.sendtitle {
+  color: rgb(73, 81, 98);
+  font-size: 25px;
+  line-height: 25px;
+  margin-left: 85px;
+  margin-right: 85px;
+}
+
+.transferBar {
+  justify-content: center;
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  height: 40px;
+  width: 400px;
+  background-color: rgb(246, 246, 246);
+  color: rgb(73, 81, 98);
+  margin: auto;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.ethVal {
+  display: flex;
+  margin-left: 15px;
+}
+
+.tax {
+  font-size: smaller;
+  color: rgb(77, 106, 167, 1);
+  margin-bottom: 40px;
+}
+.edit {
+  color: rgb(77, 106, 167);
+}
+input {
+  justify-content: center;
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  height: 40px;
+  width: 400px;
+  background-color: rgb(246, 246, 246);
+  color: rgb(73, 81, 98);
+  margin: 15px;
+  border-radius: 20px;
+  cursor: pointer;
+  border: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -ms-progress-appearance: none;
+  outline: none;
+  font-size: 15px;
+  padding-left: 25px;
+}
+::placeholder {
+  display: flex;
+  font-size: 15px;
+  margin-left: 30px;
+}
+a {
+  text-decoration: none;
+}

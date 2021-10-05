@@ -1,0 +1,33 @@
+.Button {
+  color: white;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  height: 40px;
+  width: 500px;
+  background-color: rgba(241, 90, 41, 1);
+  margin: auto;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.disconnectButton {
+  color: white;
+
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  height: 40px;
+  width: 500px;
+  background-color: rgb(77, 106, 167);
+  margin: auto;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.disconnectButton p {
+  color: white;
+}
+.Button p {
+  color: white;
+}
